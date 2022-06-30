@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Inter|Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+	user-select: none;
+	font-family: Inter;
+}
+
+body {
+    background: #fff;
+    height: 100vh;
+}
+
+header {
+    background: #3d58d8;
+	color: #fff;
+	padding: 24px;
+}
+
+header h1 {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+header p {
+	margin-left: 20px;
+   font-size: 14px;
+	color: #262626;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-family: Roboto;
+}
+
+.titulo2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 225px;
+    margin-right: 100px;
+    float: right;
+    font-family: Roboto;
+}
+
+.calculadora {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(61, 88, 216);
+    border-radius: 6px;
+    margin: 2px;
+    padding: 12px;
+}
+
+.btn {
+	background: #fff;
+	border:none;
+	margin-bottom: 3px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+    .btn:hover {
+        background-color: #e9edff;
+		color: #000
+    }
+
+.btn1 {
+	border:none;
+    margin: 5px;
+    width: 25vh;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#p {
+    line-height: 1.4;
+    background-color: white;
+    text-align: right;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Calculadora</h1>
+		<p>Charles Melo</p>
+	</header>
+	<h1 class="titulo">
+		<p>Faça seus cálculos</p>
+		<p style="font-weight: normal;">com facilidade e segurança.</p>
+	</h1>
+	<div class="calculadora">
+		<br>
+		<p id="p"></p><br>
+		<button class="btn" onclick="clean()" >C</button>
+		<button class="btn" onclick="inser('/')" >/</button>
+		<button class="btn" onclick="inser('*')" >*</button>
+		<button class="btn" onclick="inser('-')" >-</button><br>
+
+		<button class="btn" onclick="inser('7')" >7</button>
+		<button class="btn" onclick="inser('8')" >8</button>
+		<button class="btn" onclick="inser('9')" >9</button>
+		<button class="btn" onclick="inser('+')" >+</button><br>
+
+		<button class="btn" onclick="inser('4')" >4</button>
+		<button class="btn" onclick="inser('5')" >5</button>
+		<button class="btn" onclick="inser('6')" >6</button>
+		<button class="btn" onclick="inser('.')" >.</button><br>
+
+		<button class="btn" onclick="inser('1')" >1</button>
+		<button class="btn" onclick="inser('2')" >2</button>
+		<button class="btn" onclick="inser('3')" >3</button>
+		<button class="btn" onclick="inser('0')" >0</button><br>
+		<button class="btn1" onclick="calcular()" >=</button><br>
+	</div>
+	<h1 class="titulo2">
+		<p>E melhor</p>
+		<p style="font-weight: normal;">Tudo virtualmente.</p>
+	</h1>
+	<script src="script.js"></script>
+</body>
+</html>
